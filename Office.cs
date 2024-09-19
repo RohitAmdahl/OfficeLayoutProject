@@ -22,6 +22,8 @@ namespace OfficeLayoutProject
             Region = region;
         }
 
+        public abstract void DisplayRoom();
+        
     }
 
 
