@@ -1,4 +1,4 @@
-# OfficeLayoutProject
+# OfficeLayoutProject ------------- Planning / concept
 
 ![image (1)](https://github.com/user-attachments/assets/fc926af8-c197-4ed4-afd4-5b261c139ae3)
 
@@ -32,10 +32,19 @@ The office is modeled with the following rooms:
    - **Furniture**: 1 kitchen bench.
    - **Appliances**: Kettle, microwave, fridge, coffee machine.
 
+4. **Xunit**:
+   - Tests will be added.
+ 
+
 ```bash
 Tech Stack
 Language: C#
 Framework: .NET
 Development Tools: Visual Studio, .NET SDK
 Version Control: Git
+Xunit
 ```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
