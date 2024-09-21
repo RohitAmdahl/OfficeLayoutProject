@@ -8,7 +8,10 @@ namespace OfficeLayoutProject
 {
     internal class EmployeeRoom
     {
-        public string? Name { get; set; }
-        public EmployeeRoom() { }
+        public string Name { get; set; }
+        public EmployeeRoom(string name) 
+        {
+            Name = name;
+        }
     }
 }

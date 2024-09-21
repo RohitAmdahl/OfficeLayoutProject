@@ -7,18 +7,22 @@ using System.Threading.Tasks;
 
 namespace OfficeLayoutProject
 {
-    internal class KitchenArea : Office
+    public class KitchenArea : Office
     {
-        public string? Name { get; set; }
+        
+        public string Name { get; set; }
+        public List<string> KitchenEquipments { get; set; }
 
-        public KitchenArea() :base (address, city,region)
+        public KitchenArea(int address, string city, string region, string name)
+           : base(address, city, region)
         {
-            
+            Name = name;
+            KitchenEquipments = new List<string>();
         }
 
         public override void DisplayRoom()
         {
-            Console.WriteLine($"Kitchen Area: {Name}, Located at {Address}, {City}, {Region}");
+            Console.WriteLine($"this is kitchen room {Name} ");
         }
     }
 }

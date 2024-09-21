@@ -9,13 +9,13 @@ namespace OfficeLayoutProject
     public abstract class Office
     { 
         // properties 
-        public int Address { get; set; }
+        public string Address { get; set; }
         public string City { get; set; }
         public string Region { get; set; }
 
         // constructor 
 
-        public Office(int address, string city, string region)
+        public Office(string address, string city, string region)
         { 
             Address = address;
             City = city;
