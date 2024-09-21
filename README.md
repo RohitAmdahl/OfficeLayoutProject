@@ -1,9 +1,9 @@
-# OfficeLayoutProject ------------- Planning / concept
+# OfficeLayoutProject ------ Planning / concept
 
 ![image (1)](https://github.com/user-attachments/assets/fc926af8-c197-4ed4-afd4-5b261c139ae3)
 
 Office Layout Management System
-This project is built using .NET C# and models an office building, representing its various rooms and their associated furniture and equipment. The aim is to manage the objects and interactions within the office environment programmatically.
+This project is built using .NET C# and models an office building, representing its various rooms and their associated furniture and equipment/FURNITURE. The aim is to manage the objects and interactions within the office environment programmatically.
 
 
 
@@ -29,7 +29,7 @@ The office is modeled with the following rooms:
    - **Equipment**: 1 TV, lamps for ambient lighting.
 
 4. **Kitchen**:
-   - **Furniture**: 1 kitchen bench.
+   - **Furniture**: 1 kitchen table.
    - **Appliances**: Kettle, microwave, fridge, coffee machine.
      
 5. **Reception**:
