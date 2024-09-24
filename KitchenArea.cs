@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 namespace OfficeLayoutProject
 {
     public class KitchenArea : Office
-    {  
+    {
+        internal string name;
+
         public string Name { get; set; }
         public List<string> KitchenEquipments { get; set; }
 
@@ -19,9 +21,11 @@ namespace OfficeLayoutProject
             KitchenEquipments = new List<string>();
         }
 
-        public void DisplayRoom()
+      
+
+        public override void DisplayRoom()
         {
-            Console.WriteLine("this is kitchen room"); 
+            Console.WriteLine("this is kitchen room in the office"); 
         }
     }
 }
