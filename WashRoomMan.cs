@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace OfficeLayoutProject
 {
-    internal class WashRoomMan
+    internal class WashRoomMan : Office
     {
         public string? Name { get; set; } 
-        public WashRoomMan() { }
+        public WashRoomMan(string address, string city, string region, string name) :base (address,city,region)
+        {
+            Name = Name;
+        }
     }
 }

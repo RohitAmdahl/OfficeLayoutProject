@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace OfficeLayoutProject
 {
     public abstract class Office
-    { 
+    {
         // properties 
         public string Address { get; set; }
         public string City { get; set; }
@@ -16,15 +16,14 @@ namespace OfficeLayoutProject
         // constructor 
 
         public Office(string address, string city, string region)
-        { 
+        {
             Address = address;
             City = city;
             Region = region;
         }
 
         public abstract void DisplayRoom();
-        
+
     }
 
 }
-   

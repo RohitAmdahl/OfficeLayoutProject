@@ -9,6 +9,8 @@ namespace OfficeLayoutProject
     internal class WashRoomWomen
     {
         public string? Name { get; set; }
-        public WashRoomWomen() { }
+        public WashRoomWomen(string address, string city, string region, string name) : base(address, city, region)
+        {
+        }
     }
 }

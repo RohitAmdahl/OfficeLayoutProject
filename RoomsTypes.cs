@@ -11,4 +11,3 @@ namespace OfficeLayoutProject
         ConferenceRoom, EmployOffice, BoosOffice, KitchenRoom, WashRoomLadies, WashRoomGents
     }
 }
- 
