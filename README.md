@@ -38,17 +38,13 @@ The office is modeled with the following rooms:
 5. **Washrooms*:
    - **Furniture**: abd light and toilets, Mirriors.
 
-4. **Xunit**:
-   - Tests will be added.
  
 
 ```bash
 Tech Stack
 Language: C#
 Framework: .NET
-Development Tools: Visual Studio, .NET SDK
-Version Control: Git
-Xunit
+Development Tools: Visual Studio,
 ```
 
 ## License
